@@ -10,7 +10,7 @@
     <p>Можете да използвате вашето потребителско име предоставено след заплащането на членския внос към партията!</p>
     <hr>
     <h2>Попълнете формуляра и ние ще се свържем със вас!</h2>
-    <form action="/api/v1/welcome-form" method="post" style="max-width: 400px;" >
+    <div action="/api/v1/welcome-form" method="post" style="max-width: 400px;" >
         <label for="first-name">Име</label>
         <input id="first-name" type="text" name="first-name" placeholder="Въведете вашето име!" style="width: 100%; padding: 8px;">
         <label for="last-name">Фамилия</label>
@@ -19,7 +19,41 @@
         <input id="email" type="email" name="user-email" placeholder="Въведете вашата електронна поща" style="width: 100%; padding: 8px;">
         <label for="mobile-phone">Мобилен телефон за връзка:</label>
         <input id="mobile-phone" type="tel" name="user-mobile" placeholder="Въведете вашият мобилен номер!" style="width: 100%; padding: 8px;">
-            <label for="reg-message">Кратко съобщение.</label>
+        <div>
+        <label for="user-city">Изберете град.</label>
+        <select id="user-city" name="user-city">
+        <option>София</option>
+        <option>Пловдив</option>
+        <options>Варна</options>
+        <option>Бургас</option>
+        <option>Русе</option>
+        <option>Стара Загора</option>
+        <option>Плевен</option>
+        <option>Сливен</option>
+        <option>Добрич</option>
+        <option>Шумен</option>
+        <option>Перник</option>
+        <option>Хасково</option>
+        <option>Благоевград</option>
+        <option>Ямбол</option>
+        <option>Велико Търново</option>
+        <option>Пазарджик</option>
+        <option>Враца</option>
+        <option>Габрово</option>
+        <option>Кърджали</option>
+        <option>Монтана</option>
+        <option>Кюстендил</option>
+        <option>Видин</option>
+        <option>Търговище</option>
+        <option>Разград</option>
+        <option>Ловеч</option>
+        <option>Силистра</option>
+        <option>Смолян</option>     
+    </select>    
+</div>
+        
+        
+        <label for="reg-message">Кратко съобщение.</label>
 <textarea id="reg-message" name="reg-message"placeholder="Въведете кратко съобщение към вашата заявка"style="width: 100%; height: 100px; padding: 8px; resize: vertical;"
 ></textarea>
         <button type="submit" style="padding: 10px; width: 100%; cursor: pointer;">Изпрати!</button>
