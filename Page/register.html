@@ -11,28 +11,18 @@
     <hr>
     <h2>Попълнете формуляра и ние ще се свържем със вас!</h2>
     <form action="/api/v1/welcome-form" method="post" style="max-width: 400px;" >
-    <div>
         <label for="first-name">Име</label>
         <input id="first-name" type="text" name="first-name" placeholder="Въведете вашето име!" style="width: 100%; padding: 8px;">
         <label for="last-name">Фамилия</label>
         <input id="last-name" type="text" name="last-name" placeholder="Въведете вашата фамилия!" style="width: 100%; padding: 8px;">
-    </div>
-    <div>
         <label for="email">Електронна поща:</label>
         <input id="email" type="email" name="user-email" placeholder="Въведете вашата електронна поща" style="width: 100%; padding: 8px;">
         <label for="mobile-phone">Мобилен телефон за връзка:</label>
         <input id="mobile-phone" type="tel" name="user-mobile" placeholder="Въведете вашият мобилен номер!" style="width: 100%; padding: 8px;">
-        </div>
-        <div>
             <label for="reg-message">Кратко съобщение.</label>
-            <textarea id="reg-message" name="reg-message" placeholder="Въведете кратко съобщение към вашата заявка" style="width: 100%; padding: 8px; height: 100px;">
-            </textarea>
-        </div>
-        <div>
+<textarea id="reg-message" name="reg-message"placeholder="Въведете кратко съобщение към вашата заявка"style="width: 100%; height: 100px; padding: 8px; resize: vertical;"
+></textarea>
         <button type="submit" style="padding: 10px; width: 100%; cursor: pointer;">Изпрати!</button>
-        </div>
-
-
     </form>
     <ul>
         <li>

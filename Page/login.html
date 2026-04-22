@@ -8,6 +8,13 @@
 <body>
     <h1>Вход само за регистрирани потребители.</h1>
     <p>Използвайте вашето потребителско име предоставено след заплащането на членския внос към партията!</p>
+    <form action="/api/v1/login-form" method="get">
+        <label for="user-login">Потребител:</label>
+        <input id="user-login" type="text" name="user-login" placeholder="Въведете потребител">
+        <label for="user-password">Парола</label>
+        <input id="user-password" type="password" name="user-password" placeholder="Въведете парола!">
+        <button type="submit" style="cursor: pointer;">Влез!</button>
+</form>
     <hr>
     <ul>
         <li>
