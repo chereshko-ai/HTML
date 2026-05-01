@@ -1,18 +1,41 @@
 h1 {
     font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: -2px;
+    font-size: 62px;
 }
 h2{
     font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: -2px;
+    font-size: 48px;
 }
 h3{
     font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -2px;
+    font-size: 40px;
+}
+h4 {
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -2px;
+    font-size: 32px;
+    font-family: sans-serif ;
 }
 p {
     font-weight: 400;
+    line-height: 1.5;
+    font-size: 24px;
+    font-family: sans-serif;
 }
 a{
     font-weight: 400;
     text-decoration: none;
+    line-height: 1.5;
+    font-size: 16px;
 }
 ul {
     list-style: none;
